@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-ivory: #FBF9F5;
+    --color-sand: #F3EFE6;
+    --color-forest: #16382B;
+    --color-forest-deep: #0D261C;
+    --color-forest-light: #234E3C;
+    --color-charcoal: #1A211E;
+    --color-charcoal-muted: #4A5550;
+    --color-terracotta: #C26D47;
+    --color-terracotta-hover: #A85A36;
+    --color-ochre: #D49B4B;
+  }
+
+  body {
+    background-color: var(--color-ivory);
+    color: var(--color-charcoal);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  h1, h2, h3, .font-serif-editorial {
+    font-family: 'Instrument Serif', Georgia, serif;
+  }
+
+  .font-display {
+    font-family: 'Syne', sans-serif;
+  }
+}
+
+/* Custom Editorial Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F3EFE6;
+}
+::-webkit-scrollbar-thumb {
+  background: #16382B;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C26D47;
+}
+
+/* Glassmorphism utilities */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(22, 56, 43, 0.08);
+}
+
+.glass-panel-dark {
+  background: rgba(13, 38, 28, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(243, 239, 230, 0.15);
+}
+
+/* Custom scroll progress line */
+.scroll-progress-bar {
+  transform-origin: 0%;
+}
+
+/* Micro-animations */
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(1deg); }
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.4; }
+  50% { opacity: 0.8; }
+}
+
+.animate-float-slow {
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
+}
+
+/* Editorial subtle borders */
+.editorial-border-b {
+  border-bottom: 1px solid rgba(26, 33, 30, 0.12);
+}
+.editorial-border-t {
+  border-top: 1px solid rgba(26, 33, 30, 0.12);
+}
+.editorial-border-r {
+  border-right: 1px solid rgba(26, 33, 30, 0.12);
+}
+.editorial-border-all {
+  border: 1px solid rgba(26, 33, 30, 0.12);
+}

@@ -1,0 +1,136 @@
+import React from 'react';
+import { ArrowDown, Sparkles, Compass, Target, Layers } from 'lucide-react';
+
+export default function Hero({ data }) {
+  const { headline, subheadline, alternativeLine, heroTags, ctaPrimary, ctaSecondary } = data.hero;
+
+  return (
+    <section className="relative min-h-screen pt-32 pb-20 px-6 md:px-12 flex flex-col justify-between overflow-hidden bg-[#FBF9F5]">
+      {/* Background Subtle Grid Texture */}
+      <div className="absolute inset-0 bg-[radial-gradient(#16382B_1px,transparent_1px)] [background-size:32px_32px] opacity-[0.03] pointer-events-none" />
+
+      {/* Main Content Grid */}
+      <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center my-auto">
+        
+        {/* Left Column: Editorial Headline & Copy */}
+        <div className="lg:col-span-7 flex flex-col items-start space-y-8 z-10">
+          
+          {/* Brand Tag Pill */}
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#16382B]/10 border border-[#16382B]/15 text-[#16382B] text-xs font-semibold uppercase tracking-widest">
+            <Sparkles className="w-3.5 h-3.5 text-[#C26D47]" />
+            <span>Impact-Driven Project & Operations Professional</span>
+          </div>
+
+          {/* Main Headline */}
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif-editorial leading-[1.05] tracking-tight text-[#1A211E]">
+            {headline}
+          </h1>
+
+          {/* Subheadline */}
+          <p className="text-lg md:text-xl text-[#1A211E]/80 font-normal leading-relaxed max-w-2xl">
+            {subheadline}
+          </p>
+
+          {/* Creative Philosophy Line Callout */}
+          <div className="pl-4 border-l-2 border-[#C26D47] py-1 text-sm md:text-base font-serif-editorial italic text-[#16382B]">
+            "{alternativeLine}"
+          </div>
+
+          {/* Category Badges */}
+          <div className="flex flex-wrap gap-2 pt-2">
+            {heroTags.map((tag, idx) => (
+              <span
+                key={idx}
+                className="px-3 py-1 bg-[#F3EFE6] border border-[#1A211E]/10 rounded-md text-xs font-medium text-[#16382B] hover:bg-[#16382B] hover:text-[#FBF9F5] transition-all cursor-default"
+              >
+                {tag.label}
+              </span>
+            ))}
+          </div>
+
+          {/* Call to Actions */}
+          <div className="flex flex-wrap items-center gap-4 pt-4">
+            <a
+              href="#projects"
+              className="px-8 py-4 bg-[#16382B] text-[#FBF9F5] rounded-full text-sm font-semibold tracking-wide hover:bg-[#0D261C] transition-all shadow-md hover:shadow-lg flex items-center gap-3 group"
+            >
+              <span>{ctaPrimary}</span>
+              <span className="w-6 h-6 rounded-full bg-[#C26D47] flex items-center justify-center group-hover:translate-x-1 transition-transform">
+                →
+              </span>
+            </a>
+
+            <a
+              href="#approach"
+              className="px-8 py-4 bg-transparent border border-[#1A211E]/20 text-[#1A211E] rounded-full text-sm font-semibold tracking-wide hover:bg-[#1A211E]/5 transition-all"
+            >
+              {ctaSecondary}
+            </a>
+          </div>
+        </div>
+
+        {/* Right Column: Editorial Asymmetric Portrait & Project Badges */}
+        <div className="lg:col-span-5 relative flex justify-center items-center">
+          
+          {/* Back accent frame */}
+          <div className="absolute -inset-4 bg-[#F3EFE6] rounded-2xl transform rotate-2 border border-[#16382B]/10 pointer-events-none" />
+          <div className="absolute -inset-2 bg-[#16382B]/5 rounded-2xl transform -rotate-1 pointer-events-none" />
+
+          {/* Editorial Portrait Container */}
+          <div className="relative w-full max-w-md aspect-[4/5] rounded-xl overflow-hidden shadow-2xl border border-[#16382B]/20 group">
+            <img
+              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1000&q=80"
+              alt="Esther Onyendu - Project & Operations Professional"
+              className="w-full h-full object-cover object-center filter grayscale contrast-[1.08] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+            />
+
+            {/* Gradient Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-t from-[#0D261C]/80 via-transparent to-transparent opacity-90" />
+
+            {/* Editorial Caption on Image */}
+            <div className="absolute bottom-6 left-6 right-6 text-white space-y-1">
+              <span className="text-[10px] uppercase font-bold tracking-widest text-[#D49B4B] block">
+                Resourceful by Nature • Impactful by Design
+              </span>
+              <p className="font-serif-editorial text-2xl text-[#FBF9F5] leading-snug">
+                Esther Onyendu
+              </p>
+              <p className="text-xs text-white/80">
+                Education • Digital Inclusion • Capacity Building
+              </p>
+            </div>
+
+            {/* Floating Impact Tag 1 */}
+            <div className="absolute top-6 -left-4 bg-[#FBF9F5] px-3.5 py-2 rounded-lg shadow-lg border border-[#16382B]/15 flex items-center gap-2 animate-float-slow hidden sm:flex">
+              <Target className="w-4 h-4 text-[#C26D47]" />
+              <span className="text-xs font-bold text-[#16382B]">700% Member Growth</span>
+            </div>
+
+            {/* Floating Impact Tag 2 */}
+            <div className="absolute bottom-20 -right-4 bg-[#16382B] text-[#FBF9F5] px-3.5 py-2 rounded-lg shadow-lg border border-[#FBF9F5]/20 flex items-center gap-2 hidden sm:flex">
+              <Compass className="w-4 h-4 text-[#D49B4B]" />
+              <span className="text-xs font-semibold">65% Exam Benchmark</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      {/* Scroll Down Indicator */}
+      <div className="max-w-7xl mx-auto w-full pt-12 flex justify-between items-center text-xs font-semibold text-[#1A211E]/50 tracking-widest uppercase">
+        <div className="flex items-center gap-2">
+          <span className="w-2 h-2 rounded-full bg-[#16382B] animate-ping" />
+          <span>Based in Nigeria • Available Globally</span>
+        </div>
+        
+        <a
+          href="#impact"
+          className="flex items-center gap-2 hover:text-[#16382B] transition-colors group"
+        >
+          <span>Scroll to explore</span>
+          <ArrowDown className="w-4 h-4 text-[#C26D47] group-hover:translate-y-1 transition-transform" />
+        </a>
+      </div>
+    </section>
+  );
+}
