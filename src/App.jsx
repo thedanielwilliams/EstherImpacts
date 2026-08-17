@@ -42,10 +42,7 @@ export default function App() {
   return (
     <div className="min-h-screen flex flex-col bg-[#FBF9F5] text-[#1A211E]">
       {/* Navigation */}
-      <Navbar
-        data={data}
-        onOpenEditor={() => setEditorOpen(true)}
-      />
+      <Navbar />
 
       {/* Main Content Sections */}
       <main className="flex-grow">

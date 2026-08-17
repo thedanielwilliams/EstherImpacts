@@ -93,7 +93,7 @@ export const initialPortfolioData = {
         num: "04",
         title: "Measure what changed",
         subtitle: "Impact should be visible beyond activity reports.",
-        description: "Success isn't just delivering a workshop—it's tracking long-term behavior change, academic improvement, and community self-reliance."
+        description: "Success isn't just delivering a workshop; it's tracking long-term behavior change, academic improvement, and community self-reliance."
       }
     ]
   },
@@ -367,7 +367,7 @@ export const initialPortfolioData = {
       id: "exp-tfn",
       role: "Fellow & Project Lead",
       organization: "Teach For Nigeria",
-      period: "2022 — 2024",
+      period: "2022 - 2024",
       location: "Ogun & Oyo State, Nigeria",
       impactPoints: [
         "Designed and implemented diagnostic learning interventions that raised national exam pass rates from 40% to 65% across target student cohorts.",
@@ -378,8 +378,8 @@ export const initialPortfolioData = {
     {
       id: "exp-digital-onboarders",
       role: "President / Team Lead",
-      organization: "Digital Onboarders CDS — NYSC",
-      period: "2023 — 2024",
+      organization: "Digital Onboarders CDS - NYSC",
+      period: "2023 - 2024",
       location: "Nigeria",
       impactPoints: [
         "Scaled active field membership by 700% (3 to 25+ core members) through structured role allocation and community outreach.",
@@ -391,7 +391,7 @@ export const initialPortfolioData = {
       id: "exp-oluyole",
       role: "Education Operations & Science Educator",
       organization: "Oluyole Estate High School",
-      period: "2021 — 2022",
+      period: "2021 - 2022",
       location: "Ibadan, Oyo State",
       impactPoints: [
         "Coordinated academic performance tracking for over 60 science students, implementing remedial learning plans.",
@@ -413,7 +413,7 @@ export const initialPortfolioData = {
       id: "exp-icat",
       role: "Instructional & Administrative Coordinator",
       organization: "International College of Arts, Science & Tech",
-      period: "2020 — 2021",
+      period: "2020 - 2021",
       location: "Ibadan, Nigeria",
       impactPoints: [
         "Supported school operations, curriculum delivery schedule, and teacher-parent communication workflows."
@@ -423,7 +423,7 @@ export const initialPortfolioData = {
       id: "exp-command",
       role: "Academic Project Assistant",
       organization: "Command Secondary School",
-      period: "2019 — 2020",
+      period: "2019 - 2020",
       location: "Ibadan, Nigeria",
       impactPoints: [
         "Assisted in managing student assessment records, co-curricular events, and youth leadership activities."

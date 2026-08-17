@@ -56,7 +56,7 @@ export default function Testimonials({ data }) {
                 {testimonials[currentIndex].author}
               </h3>
               <p className="text-xs text-[#C26D47] font-semibold">
-                {testimonials[currentIndex].role} — {testimonials[currentIndex].organization}
+                {testimonials[currentIndex].role} | {testimonials[currentIndex].organization}
               </p>
             </div>
 

@@ -14,12 +14,6 @@ export default function Hero({ data }) {
         
         {/* Left Column: Editorial Headline & Copy */}
         <div className="lg:col-span-7 flex flex-col items-start space-y-8 z-10">
-          
-          {/* Brand Tag Pill */}
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#16382B]/10 border border-[#16382B]/15 text-[#16382B] text-xs font-semibold uppercase tracking-widest">
-            <Sparkles className="w-3.5 h-3.5 text-[#C26D47]" />
-            <span>Impact-Driven Project & Operations Professional</span>
-          </div>
 
           {/* Main Headline */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif-editorial leading-[1.05] tracking-tight text-[#1A211E]">
@@ -34,18 +28,6 @@ export default function Hero({ data }) {
           {/* Creative Philosophy Line Callout */}
           <div className="pl-4 border-l-2 border-[#C26D47] py-1 text-sm md:text-base font-serif-editorial italic text-[#16382B]">
             "{alternativeLine}"
-          </div>
-
-          {/* Category Badges */}
-          <div className="flex flex-wrap gap-2 pt-2">
-            {heroTags.map((tag, idx) => (
-              <span
-                key={idx}
-                className="px-3 py-1 bg-[#F3EFE6] border border-[#1A211E]/10 rounded-md text-xs font-medium text-[#16382B] hover:bg-[#16382B] hover:text-[#FBF9F5] transition-all cursor-default"
-              >
-                {tag.label}
-              </span>
-            ))}
           </div>
 
           {/* Call to Actions */}

@@ -59,7 +59,7 @@ export default function ImpactStats({ data }) {
             </h2>
           </div>
           <p className="text-sm text-[#FBF9F5]/70 max-w-md">
-            Good intentions don't fix broken systems—execution does. Here is evidence of what happens when strategy, structure, and persistence meet.
+            Good intentions don't fix broken systems; execution does. Here is evidence of what happens when strategy, structure, and persistence meet.
           </p>
         </div>
 
@@ -110,7 +110,7 @@ export default function ImpactStats({ data }) {
                 "I measure good work by what changed because we showed up."
               </p>
               <span className="text-xs uppercase tracking-widest text-[#D49B4B] font-bold mt-1 block">
-                — Esther Onyendu Operating Philosophy
+                Esther Onyendu Operating Philosophy
               </span>
             </div>
           </div>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Edit3, ArrowUpRight } from 'lucide-react';
+import { Menu, X, ArrowUpRight } from 'lucide-react';
 
-export default function Navbar({ onOpenEditor }) {
+export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -57,27 +57,8 @@ export default function Navbar({ onOpenEditor }) {
           ))}
         </nav>
 
-        {/* Desktop Action Button */}
-        <div className="hidden md:flex items-center gap-3">
-          <button
-            onClick={onOpenEditor}
-            className="flex items-center gap-1.5 px-4 py-2 text-xs font-medium text-[#16382B] border border-[#16382B]/20 rounded-full hover:bg-[#16382B]/5 transition-all"
-            title="Customize Portfolio Data Live"
-          >
-            <Edit3 className="w-3.5 h-3.5 text-[#C26D47]" />
-            <span>Edit Content</span>
-          </button>
-        </div>
-
         {/* Mobile Toggle Button */}
         <div className="flex md:hidden items-center gap-2">
-          <button
-            onClick={onOpenEditor}
-            className="p-2 text-[#16382B] border border-[#16382B]/20 rounded-full"
-            title="Edit Content"
-          >
-            <Edit3 className="w-4 h-4 text-[#C26D47]" />
-          </button>
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             className="p-2 text-[#1A211E] hover:text-[#16382B] focus:outline-none"
