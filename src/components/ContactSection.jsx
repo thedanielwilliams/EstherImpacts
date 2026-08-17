@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Download, Send, CheckCircle2, Copy } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, CheckCircle2, Copy } from 'lucide-react';
 
 const LinkedinIcon = ({ className = "w-4 h-4" }) => (
   <svg className={className} fill="currentColor" viewBox="0 0 24 24">
@@ -9,8 +9,8 @@ const LinkedinIcon = ({ className = "w-4 h-4" }) => (
 import confetti from 'canvas-confetti';
 
 export default function ContactSection({ data }) {
-  const { title, subtext, primaryCta, linkedinCta, cvCta } = data.contact;
-  const { email, phone, location, linkedin, cvUrl } = data.personalInfo;
+  const { title, subtext, primaryCta, linkedinCta } = data.contact;
+  const { email, phone, location, linkedin } = data.personalInfo;
 
   const [copiedField, setCopiedField] = useState(null);
   const [formSubmitted, setFormSubmitted] = useState(false);
@@ -118,7 +118,7 @@ export default function ContactSection({ data }) {
             </div>
 
             {/* Quick Action Links */}
-            <div className="space-y-3 pt-4 border-t border-[#1A211E]/10">
+            <div className="pt-4 border-t border-[#1A211E]/10">
               <a
                 href={linkedin}
                 target="_blank"
@@ -127,14 +127,6 @@ export default function ContactSection({ data }) {
               >
                 <LinkedinIcon className="w-4 h-4 text-[#D49B4B]" />
                 <span>{linkedinCta}</span>
-              </a>
-
-              <a
-                href={cvUrl}
-                className="w-full py-3 px-6 rounded-full bg-[#F3EFE6] text-[#16382B] border border-[#16382B]/20 hover:bg-[#16382B]/10 transition-colors text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-2"
-              >
-                <Download className="w-4 h-4 text-[#C26D47]" />
-                <span>{cvCta}</span>
               </a>
             </div>
 

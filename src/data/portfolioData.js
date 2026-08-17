@@ -10,8 +10,7 @@ export const initialPortfolioData = {
     linkedin: "https://linkedin.com/in/esther-onyendu",
     github: "https://github.com/estheronyendu",
     bio: "I am most useful where there is a goal, a gap and something that needs to be figured out. Give me a problem, people and a purpose. I will help turn them into progress.",
-    quote: "Resourcefulness, to me, is not doing more with less for the sake of it. It is knowing what matters enough to make limited resources count.",
-    cvUrl: "#download-cv"
+    quote: "Resourcefulness, to me, is not doing more with less for the sake of it. It is knowing what matters enough to make limited resources count."
   },
 
   hero: {
@@ -528,7 +527,6 @@ export const initialPortfolioData = {
     title: "HAVE A PROBLEM WORTH SOLVING?",
     subtext: "If you're building something that improves how people learn, work or live, I'd love to hear about it.",
     primaryCta: "Start a Conversation",
-    linkedinCta: "Connect on LinkedIn",
-    cvCta: "Download CV"
+    linkedinCta: "Connect on LinkedIn"
   }
 };
