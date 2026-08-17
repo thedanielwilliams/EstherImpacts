@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mic, Video, Presentation, Users, Sparkles, ArrowUpRight } from 'lucide-react';
+import { Mic, Presentation, Users } from 'lucide-react';
 
 export default function SpeakingLeadership({ data }) {
   const { title, subtitle, sessions } = data.speakingAndLeadership;
@@ -53,11 +53,6 @@ export default function SpeakingLeadership({ data }) {
                 <p className="text-xs text-[#FBF9F5]/70 font-light leading-relaxed">
                   {session.summary}
                 </p>
-              </div>
-
-              <div className="pt-4 border-t border-[#FBF9F5]/10 flex items-center justify-between text-xs text-[#D49B4B] font-semibold">
-                <span>View Session Highlights</span>
-                <ArrowUpRight className="w-4 h-4 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
               </div>
             </div>
           ))}
