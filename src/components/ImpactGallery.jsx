@@ -7,7 +7,7 @@ export default function ImpactGallery({ data }) {
   const [activeCategory, setActiveCategory] = useState('All');
   const [lightboxIndex, setLightboxIndex] = useState(null);
 
-  const categories = ['All', 'Education', 'Community', 'Digital Inclusion', 'Leadership', 'Projects', 'Speaking'];
+  const categories = ['All', ...Array.from(new Set(galleryItems.map(item => item.category)))];
 
   const filteredItems = activeCategory === 'All'
     ? galleryItems
