@@ -59,15 +59,15 @@ export default function Hero({ data }) {
           <div className="absolute -inset-2 bg-[#16382B]/5 rounded-2xl transform -rotate-1 pointer-events-none" />
 
           {/* Editorial Portrait Container */}
-          <div className="relative w-full max-w-md aspect-[4/5] rounded-xl overflow-hidden shadow-2xl border border-[#16382B]/20 group">
+          <div className="relative w-full max-w-lg rounded-2xl overflow-hidden shadow-2xl border border-[#16382B]/20 group">
             <img
               src={profileImage || "/esther-portrait.jpg"}
               alt="Esther Onyendu - Project & Operations Professional"
-              className="w-full h-full object-cover object-top contrast-[1.05] group-hover:scale-105 transition-all duration-700"
+              className="w-full h-auto object-cover group-hover:scale-102 transition-all duration-700 block"
             />
 
             {/* Subtle Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-[#0D261C]/80 via-transparent to-transparent opacity-90 pointer-events-none" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#0D261C]/85 via-[#0D261C]/20 to-transparent opacity-90 pointer-events-none" />
 
             {/* Name and Profession Caption */}
             <div className="absolute bottom-6 left-6 right-6 text-white space-y-1">
