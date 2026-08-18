@@ -71,9 +71,6 @@ export default function Hero({ data }) {
 
             {/* Name and Profession Caption */}
             <div className="absolute bottom-6 left-6 right-6 text-white space-y-1">
-              <span className="text-[10px] uppercase font-bold tracking-widest text-[#D49B4B] block">
-                Resourceful by Nature • Impactful by Design
-              </span>
               <p className="font-serif-editorial text-2xl text-[#FBF9F5] leading-snug">
                 Esther Onyendu
               </p>
