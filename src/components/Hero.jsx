@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDown, Sparkles, Compass, Target, Layers } from 'lucide-react';
+import { ArrowDown } from 'lucide-react';
 
 export default function Hero({ data }) {
   const { headline, subheadline, alternativeLine, profileImage, ctaPrimary, ctaSecondary } = data.hero;
@@ -65,34 +65,6 @@ export default function Hero({ data }) {
               alt="Esther Onyendu - Project & Operations Professional"
               className="w-full h-full object-cover object-top contrast-[1.05] group-hover:scale-105 transition-all duration-700"
             />
-
-            {/* Gradient Overlay */}
-            <div className="absolute inset-0 bg-gradient-to-t from-[#0D261C]/80 via-transparent to-transparent opacity-90" />
-
-            {/* Editorial Caption on Image */}
-            <div className="absolute bottom-6 left-6 right-6 text-white space-y-1">
-              <span className="text-[10px] uppercase font-bold tracking-widest text-[#D49B4B] block">
-                Resourceful by Nature • Impactful by Design
-              </span>
-              <p className="font-serif-editorial text-2xl text-[#FBF9F5] leading-snug">
-                Esther Onyendu
-              </p>
-              <p className="text-xs text-white/80">
-                Education • Digital Inclusion • Capacity Building
-              </p>
-            </div>
-
-            {/* Floating Impact Tag 1 */}
-            <div className="absolute top-6 -left-4 bg-[#FBF9F5] px-3.5 py-2 rounded-lg shadow-lg border border-[#16382B]/15 flex items-center gap-2 animate-float-slow hidden sm:flex">
-              <Target className="w-4 h-4 text-[#C26D47]" />
-              <span className="text-xs font-bold text-[#16382B]">700% Member Growth</span>
-            </div>
-
-            {/* Floating Impact Tag 2 */}
-            <div className="absolute bottom-20 -right-4 bg-[#16382B] text-[#FBF9F5] px-3.5 py-2 rounded-lg shadow-lg border border-[#FBF9F5]/20 flex items-center gap-2 hidden sm:flex">
-              <Compass className="w-4 h-4 text-[#D49B4B]" />
-              <span className="text-xs font-semibold">65% Exam Benchmark</span>
-            </div>
           </div>
 
         </div>
