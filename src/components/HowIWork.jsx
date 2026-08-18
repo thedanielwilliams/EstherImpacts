@@ -116,7 +116,7 @@ export default function HowIWork({ data }) {
             {/* Practical execution example for selected principle */}
             <div className="p-6 rounded-xl bg-[#F3EFE6] border border-[#1A211E]/10 space-y-2 relative z-10">
               <span className="text-xs font-bold uppercase tracking-widest text-[#16382B]">
-                How Esther Applies This:
+                Application:
               </span>
               <p className="text-xs text-[#1A211E]/80 leading-relaxed">
                 {activePrinciple === 0 && "Conducting baseline student assessments and field stakeholder interviews before authoring any intervention framework."}

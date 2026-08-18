@@ -107,15 +107,15 @@ export const initialPortfolioData = {
       shortDesc: "Conceptualised, launched and managed a low-cost youth empowerment framework in a borderland secondary school.",
       heroImage: "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1200&q=80",
       challenge: "Students in underserved borderland secondary schools faced severe gaps in soft skills, career orientation, and self-belief due to systemic lack of extracurricular enrichment and guidance.",
-      approach: "Designed a lean, highly adaptable 8-week youth empowerment curriculum leveraging existing school hours and zero-cost local volunteer mentors.",
-      action: "Coordinated teacher-student matching, structured weekly interactive modules on goal-setting, critical thinking, and communication, and established performance tracking KPIs.",
-      result: "Over 60 students completed the inaugural cohort with a 94% retention rate, demonstrable improvements in public speaking confidence, and 100% project sustainability adoption by school leadership.",
-      lesson: "High impact does not require high budgets. Empowering local champions creates self-sustaining educational interventions.",
-      context: "Command & Regional Borderland Schools, Nigeria",
+      approach: "Designed a lean, highly adaptable 4 week youth empowerment curriculum leveraging existing school hours and implored the use of the community Teachers as volunteer mentors.",
+      action: "Coordinated teacher-student mentorship pairing, curated educative packs for students and teachers containing structured weekly interactive modules on (identity and Mindset shift, Career mapping, financial literacy and collaboration), affirmations, and established performance tracking KPIs. Donated 50 copies of the book “Who moved my Cheese for teenagers” to the school library so as to foster the change movement through conversations within the school community through the school bookclub.",
+      result: "Over 60 students completed the inaugural cohort with a 94% retention rate, demonstrable improvements in public speaking confidence, creation of career roadmaps and aspirations beyond their locality, establishment of finance goals among mentees, and 100% project sustainability adoption by school leadership.",
+      lesson: "There’s so many possibilities within a child regardless of the child's current environment, if the child is rightly equipped to dream big. Empowering local champions creates self-sustaining educational interventions.",
+      context: "Kankon Senior Secondary School, Badagry, Nigeria",
       keyMetrics: [
         { label: "Cohort Participants", value: "60+ Students" },
         { label: "Completion Rate", value: "94%" },
-        { label: "Cost Per Student", value: "Near Zero" }
+        { label: "Direct Budget", value: "380,000 NGN" }
       ],
       toolsUsed: ["Project Lifecycle Management", "Curriculum Design", "Mentorship Alignment", "KPI Tracking"]
     },
@@ -129,12 +129,12 @@ export const initialPortfolioData = {
       challenge: "Inherited a stagnant Community Development Service (CDS) unit with only 3 active members, minimal community trust, and zero funding for digital outreach.",
       approach: "Rebuilt team culture through clear role allocation, aggressive field recruitment, and aligning digital training modules with immediate local business needs.",
       action: "Led grassroots workshops on Google Business Profile onboarding for local SMEs, digital literacy drives for youth, and structured peer-led training tracks.",
-      result: "Scaled active membership by 700% (from 3 to 25+ core members), built a regional network of over 400 alumni, and digitally onboarded dozens of micro-enterprises.",
+      result: "Scaled active membership by 700% (from 3 to 25+ core members), built a regional network of almost 400 alumni under two years (2024-2026), and digitally onboarded dozens of micro-enterprises.",
       lesson: "Leadership is about creating momentum. When people see early wins and clear structure, participation explodes naturally.",
       context: "National Youth Service Corps (NYSC) / Regional CDS",
       keyMetrics: [
         { label: "Active Member Growth", value: "700% (3 → 25+)" },
-        { label: "Alumni Network", value: "400+ Youth" },
+        { label: "Alumni Network", value: "400 Alumni (2024-2026)" },
         { label: "SMEs Onboarded", value: "35+ Local Businesses" }
       ],
       toolsUsed: ["Stakeholder Mobilisation", "Digital Literacy Coaching", "Team Leadership", "Google Business Profile"]
@@ -161,21 +161,21 @@ export const initialPortfolioData = {
     },
     {
       id: "international-day-initiatives",
-      title: "INTERNATIONAL DAY INITIATIVES",
+      title: "INTERNATIONAL YOUTH DAY & GIRL CHILD INITIATIVES",
       category: "Youth Development / Stakeholder Mobilisation / Events",
       tags: ["Event Management", "Advocacy", "Resource Mobilisation"],
-      shortDesc: "Mobilised multi-stakeholder coalitions to host impactful regional observances for the Girl Child and Boy Child.",
+      shortDesc: "Mobilised multi-stakeholder coalitions to host impactful observances for the Girl Child and Boy Child.",
       heroImage: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
       challenge: "Creating memorable, high-impact youth observances (International Day of the Girl Child & Boy Child) without institutional funding or pre-assigned event space.",
-      approach: "Forged strategic partnerships with local community centers, guest facilitators, NGO partners, and youth speakers to pool resources and venue space.",
-      action: "Orchestrated end-to-end event logistics, curated interactive panel sessions on STEM careers, gender equality, and mental health, and managed media outreach.",
-      result: "Engaged 300+ youth across multiple school districts, secured 100% donated materials/refreshments, and generated widespread community endorsement.",
+      approach: "Leveraged on the school environment and school leaders and teachers to carry out the program, alongside funding from kind donors.",
+      action: "Orchestrated end-to-end event logistics, curated interactive panel sessions addressing emerging issues within the society in line with the Global themes for the events such as career mapping, gender equality, and mental health, hygiene, raising whole male and female children.",
+      result: "Engaged 251 girls and 180 boys in meaningful conversation, addressing pressing issues impacting societal development positively, secured 100% donated refreshments, and generated widespread community exposure.",
       lesson: "Coalition building amplifies impact. Shared purpose turns potential competitors into collaborative partners.",
-      context: "Cross-Community Youth Observances",
+      context: "Kankon Senior Secondary School, Badagry",
       keyMetrics: [
-        { label: "Youth Attendees", value: "300+" },
-        { label: "Community Partners", value: "8 Organisations" },
-        { label: "Direct Budget Cost", value: "0 NGN (100% In-Kind)" }
+        { label: "Girls Engaged", value: "251 Students" },
+        { label: "Boys Engaged", value: "180 Students" },
+        { label: "Direct Budget Cost", value: "100,000 NGN" }
       ],
       toolsUsed: ["Stakeholder Mobilisation", "Event Operations", "Public Speaking & Moderation", "Resource Allocation"]
     },
@@ -186,14 +186,14 @@ export const initialPortfolioData = {
       tags: ["Multimedia Learning", "Offline EdTech", "Digital Assessment"],
       shortDesc: "Bringing modern digital learning closer to communities that are often farthest from technological infrastructure.",
       heroImage: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80",
-      challenge: "Remote borderland schools lacked reliable internet, computers, and digital instructional materials, creating a widening tech divide for learners.",
+      challenge: "Remote borderland schools computers, and digital instructional materials, lack of technical know-how in accessing educational contents digitally, creating a widening tech divide for learners.",
       approach: "Introduced offline-compatible EdTech tools, pre-loaded video lessons, and interactive quiz sessions using portable equipment.",
-      action: "Facilitated weekly tech exposure labs, trained rural teachers on integrating visual digital content into standard biology/science curricula, and established digital peer clubs.",
-      result: "Trained over 150 borderland students in basic digital tool usage and visual learning methods, boosting subject comprehension and tech confidence.",
+      action: "Facilitated the inclusion of digital instructional materials to foster conceptual understanding and active participation of the learners. Implored the use of online assessment so as to improve digital literacy and usage among learners in remote environments.",
+      result: "Trained over 150 students in basic digital tool usage, proper use of artificial intelligence, boosting subject comprehension and tech confidence.",
       lesson: "Innovation is about accessibility. EdTech solutions must fit the infrastructure realities of the communities they serve.",
       context: "Teach For Nigeria / Borderland Educational Outreach",
       keyMetrics: [
-        { label: "Students Reached", value: "150+" },
+        { label: "Students Reached", value: "150+ Students" },
         { label: "Teachers Trained", value: "12 Educators" },
         { label: "Digital Exposure Hours", value: "80+ Hours" }
       ],
@@ -204,15 +204,15 @@ export const initialPortfolioData = {
   gallery: [
     {
       id: "gal-1",
-      title: "Field Mentorship Session",
-      location: "Borderland Secondary School, Ogun State",
-      year: "2023",
-      category: "Education",
+      title: "The Mind Project Mentorship Session",
+      location: "Kankon Senior Secondary School, Kankon Badagry",
+      year: "2026",
+      category: "Social Initiative",
       imageUrl: "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=800&q=80",
       story: {
-        what: "Conducting an interactive soft-skills workshop with secondary school students under The Mind Project framework.",
-        problem: "Students struggled with public confidence and articulating career aspirations in front of peers.",
-        outcome: "Created a safe space for peer feedback; 100% of participants presented their goal roadmaps by the end of the term."
+        what: "Volunteer mentors of the Mind project were having the weekly session with their student mentees.",
+        problem: "Students in underserved borderland secondary schools faced severe gaps in soft skills, career orientation, and self-belief due to systemic lack of extracurricular enrichment and guidance.",
+        outcome: "Demonstrable improvements in public speaking confidence, creation of career roadmaps and aspirations beyond the mentees locality, establishment of finance goals among mentees and 100% project sustainability adoption by school leadership."
       }
     },
     {
@@ -230,41 +230,28 @@ export const initialPortfolioData = {
     },
     {
       id: "gal-3",
-      title: "International Day of the Girl Child Advocacy",
-      location: "Community Center Hall, Ibadan",
-      year: "2023",
+      title: "International Day of the Girl Child",
+      location: "Kankon Senior Secondary School, Badagry",
+      year: "2025",
       category: "Community",
       imageUrl: "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=800&q=80",
       story: {
-        what: "Keynote facilitation on digital rights and educational resilience for young girls in peri-urban communities.",
-        problem: "High drop-out risk among teenage girls due to socio-economic pressures and lack of female mentorship in tech.",
-        outcome: "Established a ongoing peer mentorship network connecting secondary school girls with university scholars."
-      }
-    },
-    {
-      id: "gal-4",
-      title: "Data Diagnostic Review with School Leadership",
-      location: "Oluyole Estate High School",
-      year: "2022",
-      category: "Projects",
-      imageUrl: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=80",
-      story: {
-        what: "Presenting diagnostic learning metrics to senior teachers and school administrators.",
-        problem: "Low examination scores were previously blamed on student apathy without specific topic evidence.",
-        outcome: "Identified 4 key subject bottlenecks and restructured the weekly timetable for targeted remedial coaching."
+        what: "A town hall gathering of 251 female students of Kankon senior secondary school to celebrate the international day of the girl child.",
+        problem: "Limiting beliefs among female teenage students, High drop-out risk among teenage girls due to socio-economic pressures and teenage pregnancy, lack of proper female hygiene and lack of female mentorship in the community.",
+        outcome: "Established a counselling structure between students and female teachers, aspiration for education further beyond secondary level among the girls, reduced rate of teenage pregnancy and observance of proper female hygiene."
       }
     },
     {
       id: "gal-5",
-      title: "EdTech Offline Lab Installation",
-      location: "Regional Learning Center",
-      year: "2023",
+      title: "Digital Learning",
+      location: "Regional Learning Center, Badagry",
+      year: "2025",
       category: "Education",
       imageUrl: "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80",
       story: {
-        what: "Setting up low-cost offline digital assessment tools for science classes in non-grid areas.",
-        problem: "Zero internet connectivity made cloud-based learning tools impossible to utilize.",
-        outcome: "Deployed USB-driven offline quiz engines that allowed 60+ students to practice national exam questions."
+        what: "Setting up digital assessment tools and interactive online quizzes for science classes in borderland schools.",
+        problem: "Lack of technical know-how and digital instructional materials creating a tech divide.",
+        outcome: "Trained 150+ students in basic digital tool usage and proper use of artificial intelligence."
       }
     },
     {
@@ -367,8 +354,8 @@ export const initialPortfolioData = {
       id: "exp-tfn",
       role: "Fellow & Project Lead",
       organization: "Teach For Nigeria",
-      period: "2022 - 2024",
-      location: "Ogun & Oyo State, Nigeria",
+      period: "2024 - 2026",
+      location: "Badagry, Lagos State",
       impactPoints: [
         "Designed and implemented diagnostic learning interventions that raised national exam pass rates from 40% to 65% across target student cohorts.",
         "Founded 'The Mind Project', a low-cost youth empowerment and mentorship initiative serving 60+ secondary school learners.",
@@ -377,10 +364,10 @@ export const initialPortfolioData = {
     },
     {
       id: "exp-digital-onboarders",
-      role: "President / Team Lead",
+      role: "President",
       organization: "Digital Onboarders CDS - NYSC",
       period: "2023 - 2024",
-      location: "Nigeria",
+      location: "Oyo State",
       impactPoints: [
         "Scaled active field membership by 700% (3 to 25+ core members) through structured role allocation and community outreach.",
         "Built a regional digital alumni network of over 400+ youth through continuous capacity building sessions.",
@@ -389,13 +376,13 @@ export const initialPortfolioData = {
     },
     {
       id: "exp-oluyole",
-      role: "Education Operations & Science Educator",
+      role: "Corp Member & Science Educator",
       organization: "Oluyole Estate High School",
       period: "2021 - 2022",
       location: "Ibadan, Oyo State",
       impactPoints: [
-        "Coordinated academic performance tracking for over 60 science students, implementing remedial learning plans.",
-        "Introduced interactive visual biology assessments and lab practical efficiency measures."
+        "Partnered with internal institutional staff to manage day-to-day administrative deliveries, ensuring strict adherence to standardized delivery timelines and quality control.",
+        "Applied target-setting frameworks and data-driven review sessions to identify student learning gaps, successfully scaling cohort success rates to a 65% pass mark in national examinations."
       ]
     },
     {
@@ -416,7 +403,9 @@ export const initialPortfolioData = {
       period: "2020 - 2021",
       location: "Ibadan, Nigeria",
       impactPoints: [
-        "Supported school operations, curriculum delivery schedule, and teacher-parent communication workflows."
+        "Designed and facilitated goal-setting workshops, shifting user engagement metrics upward by 50% through structured self-evaluation frameworks.",
+        "Standardized delivery frameworks for a cohort of 60+ individuals, driving continuous improvement cycles that yielded an 80% peak performance and distinction rate.",
+        "Founded and scaled the institution's premier collaborative Book Club."
       ]
     },
     {
@@ -426,7 +415,8 @@ export const initialPortfolioData = {
       period: "2019 - 2020",
       location: "Ibadan, Nigeria",
       impactPoints: [
-        "Assisted in managing student assessment records, co-curricular events, and youth leadership activities."
+        "Guided secondary students in establishing effective study and note-taking habits in and out of the classroom.",
+        "Compiled and delivered Federal Government-approved biology lesson plans using creative, learner-centered methods."
       ]
     },
     {
@@ -436,7 +426,7 @@ export const initialPortfolioData = {
       period: "2019",
       location: "Lagos, Nigeria",
       impactPoints: [
-        "Supported community engagement, event operations, and digital communication schedules."
+        "Facilitated educational programs and co-managed community-driven youth initiatives, designing engagement frameworks to enhance participant learning outcomes."
       ]
     }
   ],
@@ -445,7 +435,7 @@ export const initialPortfolioData = {
     academic: [
       {
         degree: "M.Ed Educational Technology",
-        institution: "University of Ibadan",
+        institution: "Lagos State University",
         period: "In Progress",
         badge: "Postgraduate"
       },

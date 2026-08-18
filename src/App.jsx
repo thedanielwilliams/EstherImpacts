@@ -19,7 +19,7 @@ import ContentEditorModal from './components/ContentEditorModal';
 
 export default function App() {
   const [data, setData] = useState(() => {
-    const saved = localStorage.getItem('esther_portfolio_data');
+    const saved = localStorage.getItem('esther_portfolio_data_v2');
     return saved ? JSON.parse(saved) : initialPortfolioData;
   });
 
@@ -27,7 +27,7 @@ export default function App() {
 
   const handleSaveData = (newData) => {
     setData(newData);
-    localStorage.setItem('esther_portfolio_data', JSON.stringify(newData));
+    localStorage.setItem('esther_portfolio_data_v2', JSON.stringify(newData));
     setEditorOpen(false);
   };
 
