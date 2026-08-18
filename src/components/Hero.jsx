@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowDown, Sparkles, Compass, Target, Layers } from 'lucide-react';
 
 export default function Hero({ data }) {
-  const { headline, subheadline, alternativeLine, heroTags, ctaPrimary, ctaSecondary } = data.hero;
+  const { headline, subheadline, alternativeLine, profileImage, ctaPrimary, ctaSecondary } = data.hero;
 
   return (
     <section className="relative min-h-screen pt-32 pb-20 px-6 md:px-12 flex flex-col justify-between overflow-hidden bg-[#FBF9F5]">
@@ -61,9 +61,9 @@ export default function Hero({ data }) {
           {/* Editorial Portrait Container */}
           <div className="relative w-full max-w-md aspect-[4/5] rounded-xl overflow-hidden shadow-2xl border border-[#16382B]/20 group">
             <img
-              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1000&q=80"
+              src={profileImage || "/esther-portrait.jpg"}
               alt="Esther Onyendu - Project & Operations Professional"
-              className="w-full h-full object-cover object-center filter grayscale contrast-[1.08] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700"
+              className="w-full h-full object-cover object-top contrast-[1.05] group-hover:scale-105 transition-all duration-700"
             />
 
             {/* Gradient Overlay */}

@@ -10,13 +10,15 @@ export const initialPortfolioData = {
     linkedin: "https://linkedin.com/in/esther-onyendu",
     github: "https://github.com/estheronyendu",
     bio: "I am most useful where there is a goal, a gap and something that needs to be figured out. Give me a problem, people and a purpose. I will help turn them into progress.",
-    quote: "Resourcefulness, to me, is not doing more with less for the sake of it. It is knowing what matters enough to make limited resources count."
+    quote: "Resourcefulness, to me, is not doing more with less for the sake of it. It is knowing what matters enough to make limited resources count.",
+    profileImage: "/esther-portrait.jpg"
   },
 
   hero: {
     headline: "I TURN IDEAS, PEOPLE AND LIMITED RESOURCES INTO IMPACT.",
     subheadline: "Project & Operations Professional working across education, community development, digital inclusion and capacity building.",
     alternativeLine: "I build solutions where people, purpose and execution meet.",
+    profileImage: "/esther-portrait.jpg",
     heroTags: [
       { label: "Projects", category: "management" },
       { label: "Operations", category: "ops" },
