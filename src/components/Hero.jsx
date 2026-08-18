@@ -65,6 +65,22 @@ export default function Hero({ data }) {
               alt="Esther Onyendu - Project & Operations Professional"
               className="w-full h-full object-cover object-top contrast-[1.05] group-hover:scale-105 transition-all duration-700"
             />
+
+            {/* Subtle Gradient Overlay */}
+            <div className="absolute inset-0 bg-gradient-to-t from-[#0D261C]/80 via-transparent to-transparent opacity-90 pointer-events-none" />
+
+            {/* Name and Profession Caption */}
+            <div className="absolute bottom-6 left-6 right-6 text-white space-y-1">
+              <span className="text-[10px] uppercase font-bold tracking-widest text-[#D49B4B] block">
+                Resourceful by Nature • Impactful by Design
+              </span>
+              <p className="font-serif-editorial text-2xl text-[#FBF9F5] leading-snug">
+                Esther Onyendu
+              </p>
+              <p className="text-xs text-white/80">
+                Education • Digital Inclusion • Capacity Building
+              </p>
+            </div>
           </div>
 
         </div>
