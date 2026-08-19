@@ -82,22 +82,6 @@ export default function Hero({ data }) {
 
         </div>
       </div>
-
-      {/* Scroll Down Indicator */}
-      <div className="max-w-7xl mx-auto w-full pt-12 flex justify-between items-center text-xs font-semibold text-[#1A211E]/50 tracking-widest uppercase">
-        <div className="flex items-center gap-2">
-          <span className="w-2 h-2 rounded-full bg-[#16382B] animate-ping" />
-          <span>Based in Nigeria • Available Globally</span>
-        </div>
-        
-        <a
-          href="#impact"
-          className="flex items-center gap-2 hover:text-[#16382B] transition-colors group"
-        >
-          <span>Scroll to explore</span>
-          <ArrowDown className="w-4 h-4 text-[#C26D47] group-hover:translate-y-1 transition-transform" />
-        </a>
-      </div>
     </section>
   );
 }
